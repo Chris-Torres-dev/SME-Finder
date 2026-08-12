@@ -1,0 +1,43 @@
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+.streamlit/secrets.toml
+
+# Data and local databases
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.db
+
+# Python artifacts
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Logs, caches, and temporary files
+*.log
+.cache/
+tmp/
+temp/
+
+# Build and distribution artifacts
+build/
+dist/
+*.exe
+*.msi
+*.msix
+
+# Common tooling and operating-system files
+node_modules/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
