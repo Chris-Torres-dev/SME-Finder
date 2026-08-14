@@ -31,6 +31,7 @@ temp/
 # Build and distribution artifacts
 build/
 dist/
+release-assets/
 *.exe
 *.msi
 *.msix

@@ -1,11 +1,11 @@
 # Support
 
-When requesting support, please provide:
+Use the product or support channel provided with your authorized access. When requesting support, include:
 
 - Your SME Finder version.
-- Your operating system.
+- Your Windows version.
 - A short description of the problem.
 - The steps that caused the problem.
-- A screenshot, if appropriate.
+- A screenshot only when it contains no sensitive information.
 
-Do not include passwords, API keys, or private candidate information in a support request or public GitHub issue.
+Never send passwords, API keys, Gemini keys, database credentials, private candidate information, or other sensitive organization data in a support request or public GitHub issue.
