@@ -1,19 +1,22 @@
 # SME Finder
 
+SME Finder helps organizations organize, search, compare, and maintain professional and expert profiles.
+
 ## What SME Finder Does
 
-SME Finder helps organizations organize and work with expert and professional profiles in organization-specific workspaces. It can:
+SME Finder provides workspace-specific organization for professional and expert profiles. It can:
 
-- Import profile information and supporting documents.
+- Import profile information from PDFs and other supported documents.
 - Import structured directory and spreadsheet data.
 - Search stored profiles with Standard Search.
 - Use AI Scout for assisted discovery and comparison.
+- Compare profiles using supported search and discovery workflows.
 - Enhance existing profiles when additional supported information is available.
 - Export profile and search data.
 
 ## Download
 
-Windows downloads are distributed through GitHub Releases. No download link is included here until an authorized release is published.
+Windows builds are distributed through GitHub Releases.
 
 ## Installation
 
