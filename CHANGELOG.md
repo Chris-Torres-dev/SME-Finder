@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.0-rc3 — Release Candidate
+
+- Added a customer-visible **Quit SME Finder** control to the Windows desktop application.
+- Added an explicit confirmation step and a clear final message before the local application closes.
+- Improved local application lifecycle handling so Quit stops the SME Finder localhost service and its owned processes.
+- Preserved the installer identity, configuration compatibility, legacy SQLite filename compatibility, and application security boundaries from RC2.
+
+RC1 and RC2 remain available as historical pre-releases. RC3 is recommended for continued controlled testing.
+
 ## v0.1.0-rc2 — Release Candidate
 
 - Updated the default local SQLite filename to `sme_finder.sqlite3` for new installations.
