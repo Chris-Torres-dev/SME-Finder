@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.1.0-rc4 — Release Candidate
+
+- Improved SME Finder naming consistency across the Windows desktop experience and release packaging.
+- Improved backward compatibility for supported settings and existing local SQLite data.
+- Preserved the installer identity, customer configuration, local data, localhost-only security boundary, and Quit behavior from RC3.
+- Made no customer-data or hosted-service changes.
+
+RC1, RC2, and RC3 remain available as historical pre-releases. RC4 is recommended for continued controlled testing.
+
 ## v0.1.0-rc3 — Release Candidate
 
 - Added a customer-visible **Quit SME Finder** control to the Windows desktop application.
@@ -12,7 +21,7 @@ RC1 and RC2 remain available as historical pre-releases. RC3 is recommended for 
 ## v0.1.0-rc2 — Release Candidate
 
 - Updated the default local SQLite filename to `sme_finder.sqlite3` for new installations.
-- Preserved access to an existing legacy `smi_finder.sqlite3` database when the new filename is absent; neither database is automatically deleted or overwritten.
+- Preserved access to an existing legacy SQLite database when the new filename is absent; neither database is automatically deleted or overwritten.
 - Added machine-derived source-build provenance to release metadata.
 - Added deterministic Windows file-version metadata (`0.1.0.2`) while retaining the semantic product version (`0.1.0-rc2`).
 - Preserved the localhost-only launcher, installer identity, configuration behavior, and application security boundaries from RC1.
